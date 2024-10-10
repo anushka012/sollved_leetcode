@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
+        #merge sorted array
         i = m - 1  # Last element of nums1 (excluding extra zeros)
         j = n - 1  # Last element of nums2
         k = m + n - 1  # Last position in nums1
